@@ -1,14 +1,25 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-function Hi(){
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+const names="Hi my name is "
+const Identity= "With my family mumber "
+function Fram(){
   return(
     <div>
-      <h1>
-        How are you
-      </h1>
+      <Man id="Little Sister" name="Sheoshe Biswas"/>
+      <Man id="Pagol also Ideate looser" name="Badhon Biswas"/>
+      <Man id="Mom" name="Bonita Biswas"/>
+      <Man id="Bad But God" name="Mongol Biswas"/>
     </div>
   );
 };
 
+const Man=(props)=>{
+  return(
+    <div>
+      <h3>{names} {props.name} {Identity} {props.id}</h3>
+    </div>
+  );
+}
 
-ReactDom.render(<Hi/>,document.getElementById('root'));
+ReactDom.render(<Fram/>,document.getElementById('root'));
