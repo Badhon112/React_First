@@ -5,7 +5,7 @@ import From from './App.js';
 function Hi(){
   return(
     <div>
-      <From/>
+      <From title="Text Form"/>
     </div>
 
   );
