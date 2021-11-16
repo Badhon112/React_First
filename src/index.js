@@ -4,7 +4,9 @@ import './index.css'
 // import App from './Greek/App';
 // import App from "./Sumit/App";
 // import App from "./Api/App"
-import App from "./Hook/App"
+// import App from "./Hook/App"
+// import App from "./UseEffect/App";
+import App from "./CallBackMemo/App";
 function Index() {
   return (
     <div>      
