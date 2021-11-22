@@ -7,7 +7,8 @@ import './index.css'
 // import App from "./Hook/App"
 // import App from "./UseEffect/App";
 // import App from "./CallBackMemo/App";
-import App from "./UseRef/App";
+// import App from "./UseRef/App";
+import App from "./UseReducer/App";
 function Index() {
   return (
     <div>      
@@ -16,3 +17,4 @@ function Index() {
   );
 }
 ReactDom.render(<Index />, document.getElementById("root"));
+
