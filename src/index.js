@@ -8,11 +8,14 @@ import './index.css'
 // import App from "./UseEffect/App";
 // import App from "./CallBackMemo/App";
 // import App from "./UseRef/App";
-import App from "./UseReducer/App";
+// import App from "./UseReducer/App";
 function Index() {
   return (
     <div>      
-      <App/>
+      {/* <App/> */}
+      <p>
+      Hi Badhon Biswas
+      </p>
     </div>
   );
 }
